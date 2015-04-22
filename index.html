@@ -5,26 +5,44 @@
     <title>DADA'S HOMEPAGE</title>
     <script src="./main.js"></script>
     <style>
-    img{
-    	width:640px;
-    	border-top:4px solid #666666;
-    	border-right:4px dashed #666666;
-    	border-bottom:4px dotted #666666;
-    	border-left:4px double #666666;
-    	}
+    *{ margin: 0px; padding: 0px;}
+    .container{
+    	width:890px;
+    	margin: 0px auto 0px auto;
+    	background-color: #dbdbdb; 
+    	text-align: center;
+   	 }
+   	 
+	   	 #myphoto, #myinfo{
+	   	 	background-color: #ff66ff;
+	   	 	border: 2px solid #333333;
+	   	 }
+	   	 
+		    #myphoto > img{
+		    	width:640px;
+		    	border-top:4px solid #666666;
+		    	border-right:4px dashed #666666;
+		    	border-bottom:4px dotted #666666;
+		    	border-left:4px double #666666;
+		    	}
     </style>
-    <style>
-    	.greeting{
-    		font-size : 30px;
-    		font-weight :bold;
-    		color : aqua;
-    		width : 400px; height : 300px;
-    		margin : auto;
-    	}
-    </style>
+    <!--
+    	margin : top right bottom left 
+    	실제크기 = width + padding(IE)
+    			= width (Chrome)
+    			: 0px로 사용/ 가급적 padding 사용X
+    	#OO1 > OO2 : OO1 밑에 있는  002 첫번 째 값에 대한  
+    -->
 </head>
 <body>
-<div class="greeting"> Hello World!!! </div>
-<img src="./images/profile.jpg" alt="다다" title="다다" />
+<div class="container">
+	<div id="myphoto">
+		<img src="./images/profile.jpg" alt="다다" title="다다" />
+	</div>
+	<div id="myinfo">
+		
+	</div>
+</div>
+<!--  <div class="greeting"> Hello World!!! </div> -->
 </body>
 </html>
