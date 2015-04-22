@@ -24,6 +24,32 @@
 		    	border-right:4px dashed #666666;
 		    	border-bottom:4px dotted #666666;
 		    	border-left:4px double #666666;
+		    	margin: 30px
+		    }
+		    
+		    #myinfo{
+		    	text-align: left;
+		    }
+		    	
+		    	#myinfo > ol{
+		    		margin: 30px 0px 30px 130px;
+		    		list-style: square;
+		    	}
+		    	#myinfo > li{
+		    		padding: 5px;
+		    		font-size: 1.4em;
+		    	}
+		    	
+		    	#myinfo > ol > li > span.label{
+		    		text-decoration: underline;
+		    		color: #00ff00;
+		    		font-family: "돋움체";
+		    	}
+		    	
+		    	#myinfo > ol > li > span.content{
+		    		font-weight : bold;
+		    		color: #ff0000;
+		    		font-family: "궁서체";
 		    	}
     </style>
     <!--
@@ -40,7 +66,24 @@
 		<img src="./images/profile.jpg" alt="다다" title="다다" />
 	</div>
 	<div id="myinfo">
-		
+		<ol>
+			<li>
+				<span class="label">이&nbsp;&nbsp;&nbsp;&nbsp;름</span>
+				<span class="content" style="width:200px;">주다인</span>
+			</li>
+			<li>
+				<span class="label">이&nbsp;메&nbsp;일</span>
+				<span class="content">givepcode@e-mirim.hs.kr</span>
+			</li>
+			<li>
+				<span class="label">취&nbsp;&nbsp;&nbsp;&nbsp;미</span>
+				<span class="content">다이어리쓰기 독서 산책하기</span>
+			</li>
+			<li>
+				<span class="label">선호언어</span>
+				<span class="content">자바</span>
+			</li>
+		</ol>
 	</div>
 </div>
 <!--  <div class="greeting"> Hello World!!! </div> -->
